@@ -1,0 +1,12 @@
+à Faire : 
+
+passer le site sur seolyzer / OnCrawl / Excel
+passer le site sur Gzip (compresseur de fichier)
+passer le site sur GTmetrix (test de vitesse de chargement de page)
+faire une analyse des logs pour voir ou est ce que google bot perd le plus de temps
+passer le site sur le correcteur W3c pour verifier les erreurs
+mettre les images à la bonne taille des blocks
+
+Minifiez vos fichiers CSS et JavaScript (c-a-d : espaces, sauts de lignes, commentaires, séparateurs de bloc)
+Vous pouvez, pour cela, utiliser des applications web telles que https://www.minifier.org/ ou http://compressmycode.com.
+

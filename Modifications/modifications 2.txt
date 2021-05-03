@@ -1,0 +1,57 @@
+(1) balise : <html lang="Default">
+Avant : <html lang="Default">
+Après : <html lang="fr">
+
+(2) [ligne] balise : <meta name="keywords">
+Avant : <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
+Après :  <meta name="keywords" content="seo, google, site web, site internet, agence design lyon, agence design, design, webdesign, entreprise web design lyon, entreprise">
+
+(3) [ligne] balise : <meta name="description">
+Avant : vide
+Après : <meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.">
+
+(4) [ligne] balise : <title>.</title>
+Avant : . 
+Après : La chouette agence
+
+(5) [ligne] balise : <div class="keywords">
+Modification : attribut + balise = supprimer
+Screenshot : 1
+
+(6) [ligne] balise : <a href="page2.html">page2 &gt;</a>
+Avant : <a href="page2.html">page2 &gt;</a>
+Après : <a href="page2.html">Contact-nous</a>
+Screenshot : 2
+
+(7) [ligne] balise <img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
+Avant : <img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
+Après : <h2>La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
+Commentaire : Les textes ont été conçu en tant qu'image, ce qui ralentissait le chargement du site. Ils avaient aussi un impacte important sur le design du site car si on passe en mode tablette et desktop, les images étaient couper sans barre de scroll horizontale et on ne voyait pas les textes afficher. Donc j'ai tout simplement retirer l'image et j'ai rajouter une balise h2 avec le même texte que l'image. Sans oublier que pour proceder au modification des textes, il va falloir passer par un éditeur de texte.
+Screenshot : 5
+
+(9) [ligne] attribut : .portfolio-thumb
+Rajout : margin: 0, auto;
+Commentaire : En mode tablette, les images du portfolio étaient sur la gauche du site créant un espace à droite du site. Je les ai centrer en rajoutant un margin 0 auto.
+Screenshot : 3
+
+(10) [ligne] attribut : .social
+Avant : max-width: 400px;
+    	margin: auto auto auto auto;
+Après : max-width: 400px;
+   	margin: 0 auto;
+   	margin-bottom: 20px;
+   	margin-top: 20px;
+  	height: 50px;
+   	display: flex;
+   	justify-content: space-around;
+    	align-items: center;
+
+Commentaire : Les icones étaient placer en colonne en mode tablette et téléphone, ce qui créait un vide trop important à gauche et droite du bloc parent. J'ai décider de réaligner les icones à l'horizontal dans n'importe quel format d'écran, ce qui évite d'avoir ce vide sur les côtés du bloc et de rajouter du margin en haut et en bas du bloc pour espacer les bloc adjacents car ils étaient trop rapprocher.
+Screenshot : 4
+
+
+(11) [ligne] <h2 class="pret mg-md text-center tc-white">
+Rajout : Attribut .pret
+			position: relative;
+Commentaire : Problème de visibilité et donc d'accessibilité du h2 qui était derrière la texture, ce qui rendait l'affichage du texte d'une autre couleure que celle de base du site.
+Screenshot : 6
