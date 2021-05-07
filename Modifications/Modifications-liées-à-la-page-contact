@@ -1,0 +1,74 @@
+(1) (ligne) modification du nom du fichier page2.html
+Avant : page2.html
+Après : contact.html
+
+(2) (ligne) balise : <html lang="Default">
+Avant : <html lang="Default">
+Après : <html lang="fr">
+Commentaire : Après plusieurs recherche sur internet, je ne suis pas tomber une fois sur la valeur "default" donc je l'ai modifier en fr car le site est en français
+
+(3) (ligne) modification la balise html keywords
+Avant : <meta name="keywords" content="">
+Apres : <meta name="keywords" content="seo, google, site web, site internet, agence design lyon, agence design, design, webdesign, entreprise web design lyon, entreprise">
+Commentaire : Aucun mots-clef défini sur la page contact.html, ce qui réduit les chances de retrouver le site.
+
+(4) (ligne) modification de la balise <meta name="description" content="">
+Avant : content vide
+Apres : <meta name="description" content="Prêt pour redonner vie à votre projet ?
+	Contactez notre équipe !">
+Commentaire : La description d'un site permet de retrouver plus facilement le site dans les moteurs de recherche.
+
+
+(5) (ligne) modification du titre de la page <title>page2</title>
+Avant : <title>page2</title>
+Apres : <title>Contactez-nous</title>
+
+(6) (ligne) modification de toutes les balises link du fichier contact.html
+Avant : <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+Apres : <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="./css/et-line.css">
+Commentaire : le lien vers les fichiers étaient mauvaises, au final, presque aucun fichier n'étaient importer au document.
+
+(7) (ligne) modification de toutes les balises script du fichier contact.html 
+Avant : <script src="./js/jquery-2.1.0.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <script src="./js/blocs.min.js"></script>
+        <script src="./js/jqBootstrapValidation.js"></script>
+        <script src="./js/formHandler.js"></script>
+Apres : <script src="./js/jquery-2.1.0.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <script src="./js/blocs.js"></script>
+        <script src="./js/jquery.touchSwipe.js" defer></script>
+        <script src="./js/gmaps.js"></script>
+Commentaire : Pareil que pour les fichiers CSS, le lien vers les fichiers JavaScript étaient mauvaises et donc rien n'était importer.
+
+(8) (ligne) modification de la valeur color de l'attribut tc-white
+Avant : #F3976C!important
+Apres : white
+Commentaire : Les textes en orange était peu visible, trop sombre. J'ai changer la couleur pour les mettres en blanc. Les textes sont beaucoups plus visibles
+
+(9) ligne modification de la <div> possèdant l'attribut : page-container
+Avant : <div class="page-container">
+Apres : <main class="page-container>
+Commentaire : L'utilisation de la balise main ameliore l'accessibilité du site. 
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/main
+
+(10) (ligne) Modification de la div <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+Avant : <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+Apres : <section class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+Commentaire : L'uilisation de la balise section permet à googleBot de délimité plus facilement les boites de textes et les boites génériques.
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/section
+
+(11) (ligne) Supression de la valeur !important de l'attribut a
+Avant : color: #F3976C; !important;
+Apres : color: #F3976C;
+Commentaire : Pour pouvoir rajouter un effet de survol sur la navigation du site
+
+

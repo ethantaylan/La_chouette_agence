@@ -114,7 +114,7 @@ a:hover {
 }
 
 p {
-    font-size: small !important;
+    font-size: medium !important;
 }
 
 
@@ -674,7 +674,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -805,7 +805,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important
 }
 
 .btn-atomic-tangerine {
@@ -953,6 +953,7 @@ h4 {
         -webkit-transform: none;
         -ms-transform: none;
     }
+
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);

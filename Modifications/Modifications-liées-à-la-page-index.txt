@@ -1,14 +1,17 @@
 (1) balise : <html lang="Default">
 Avant : <html lang="Default">
 Après : <html lang="fr">
+Commentaire : Après plusieurs recherche sur internet, je ne suis pas tomber une fois sur la valeur "default" donc je l'ai modifier en fr car le site est en français
 
 (2) [ligne] balise : <meta name="keywords">
 Avant : <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
 Après :  <meta name="keywords" content="seo, google, site web, site internet, agence design lyon, agence design, design, webdesign, entreprise web design lyon, entreprise">
+Commentaire : Mettre le même mot clef plusieurs fois ne sert à rien.
 
 (3) [ligne] balise : <meta name="description">
 Avant : vide
 Après : <meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.">
+Commentaire : Rajouter une description au site permet de retrouver le site plus rapidement. 
 
 (4) [ligne] balise : <title>.</title>
 Avant : . 
@@ -17,6 +20,7 @@ Après : La chouette agence
 (5) [ligne] balise : <div class="keywords">
 Modification : attribut + balise = supprimer
 Screenshot : 1
+Commentaire : Balise qui provocait seulement un bug d'affichage.
 
 (6) [ligne] balise : <a href="page2.html">page2 &gt;</a>
 Avant : <a href="page2.html">page2 &gt;</a>
@@ -25,7 +29,10 @@ Screenshot : 2
 
 (7) [ligne] balise <img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
 Avant : <img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
-Après : <h2>La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
+Apres : 		<blockquote>
+					<h2 class="citation">"La chouette agence est une excellent agence web ! Les web designiers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."</h2>
+					<h5 class="signature">Maxime Guilbard, PDG de À vos fourchettes</h5>
+				</blockquote>
 Commentaire : Les textes ont été conçu en tant qu'image, ce qui ralentissait le chargement du site. Ils avaient aussi un impacte important sur le design du site car si on passe en mode tablette et desktop, les images étaient couper sans barre de scroll horizontale et on ne voyait pas les textes afficher. Donc j'ai tout simplement retirer l'image et j'ai rajouter une balise h2 avec le même texte que l'image. Sans oublier que pour proceder au modification des textes, il va falloir passer par un éditeur de texte.
 Screenshot : 5
 
@@ -45,7 +52,6 @@ Après : max-width: 400px;
    	display: flex;
    	justify-content: space-around;
     	align-items: center;
-
 Commentaire : Les icones étaient placer en colonne en mode tablette et téléphone, ce qui créait un vide trop important à gauche et droite du bloc parent. J'ai décider de réaligner les icones à l'horizontal dans n'importe quel format d'écran, ce qui évite d'avoir ce vide sur les côtés du bloc et de rajouter du margin en haut et en bas du bloc pour espacer les bloc adjacents car ils étaient trop rapprocher.
 Screenshot : 4
 
@@ -55,3 +61,34 @@ Rajout : Attribut .pret
 			position: relative;
 Commentaire : Problème de visibilité et donc d'accessibilité du h2 qui était derrière la texture, ce qui rendait l'affichage du texte d'une autre couleure que celle de base du site.
 Screenshot : 6
+
+(12) modification de la valeur de l'attribut font-size
+Avant : font-size: small
+Après : font-size- medium
+Commentaire : La visilité des textes en générale était petit donc peu visible.
+
+(13) (ligne) modification de la <div> possèdant l'attribut : page-container
+Avant : <div class="page-container">
+Apres : <main class="page-container>
+Commentaire : L'utilisation de la balise main ameliore l'accessibilité du site. 
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/main
+
+(14) (ligne) modification de la div <div class="col-sm-12 text-center">
+Avant : <div class="col-sm-12 text-center">
+Apres : <section class="col-sm-12 text-center">
+Commentaire : L'uilisation de la balise section permet à googleBot de délimité plus facilement les boites de textes et les boites génériques.
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/section
+
+(15) (ligne) Modification de la div <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+Avant : <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+Apres : <section class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+Commentaire : L'uilisation de la balise section permet à googleBot de délimité plus facilement les boites de textes et les boites génériques.
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/section
+
+
+(16) (ligne) Ajout d'un effet :hover sur la navigation haut droite du site.
+Avant : aucun effet
+Apres : Changement de couleur quand on passe la souris, et changement de l'épaisseur de la typographie quand la page est activée.
+Commentaire : Permet une meilleur navigation au sein du site, et de mieux ce reperer.
+
+
