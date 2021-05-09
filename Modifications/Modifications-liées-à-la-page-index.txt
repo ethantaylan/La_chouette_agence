@@ -96,3 +96,10 @@ Commentaire : L'extension de fichier bmp est une extension qui ne compresse pas 
 Modification de la résolution de l'image : image-de-presentation.jpg 
 Avant : 1920x1080
 Apres : 628x353
+
+(18) ajout d'un loading spinner pour laisser l'utilisateur charger le contenu.
+
+(19) modification de la taille des images du bloc : bloc-lg
+Avant : 320px * 320px
+Apres : 270px * 270px
+Commentaire : Adaptation des images à la taille des blocs
