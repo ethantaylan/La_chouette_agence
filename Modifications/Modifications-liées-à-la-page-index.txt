@@ -91,4 +91,8 @@ Avant : aucun effet
 Apres : Changement de couleur quand on passe la souris, et changement de l'épaisseur de la typographie quand la page est activée.
 Commentaire : Permet une meilleur navigation au sein du site, et de mieux ce reperer.
 
-
+(17) (ligne) Modification des extensions des images 3.bmp 4.bmp image-de-presentation.bmp et modifications de la résolution de l'image : image-de-presentation.bmp
+Commentaire : L'extension de fichier bmp est une extension qui ne compresse pas l'image contrairement au format jpg qui compresse l'image et la rend moin lourde donc plus rapide à charger.
+Modification de la résolution de l'image : image-de-presentation.jpg 
+Avant : 1920x1080
+Apres : 628x353

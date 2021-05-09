@@ -71,4 +71,8 @@ Avant : color: #F3976C; !important;
 Apres : color: #F3976C;
 Commentaire : Pour pouvoir rajouter un effet de survol sur la navigation du site
 
+(12) (ligne) Erreur au W3C
+Screenshot: 7
+Correction : j'ai retirer le failmsg et le success-msg
+Commentaire : Après plusieurs recherche sur internet je n'ai trouver aucun site 
 
