@@ -722,6 +722,11 @@ a[data-lightbox]:hover img {
   color: #fff;
 }
 
+.pret {
+  position: relative;
+  z-index: 999;
+}
+
 .next-lightbox,
 .prev-lightbox {
   font-size: 20px;
@@ -865,11 +870,6 @@ h4 {
   margin-bottom: 24px;
 }
 
-.portfolio-row {
-  margin-bottom: 44px;
-  margin-top: 50px;
-}
-
 .avatar {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -968,6 +968,7 @@ h4 {
   .nav-center.navbar .nav {
     max-width: 100%;
   }
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
