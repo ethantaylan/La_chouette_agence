@@ -12,6 +12,10 @@ body {
   height: 270px;
 }
 
+.no-padding {
+  padding: 0 !important;
+}
+
 .logo-size {
   width: 34.58px !important;
   height: 40px !important; 
@@ -19,6 +23,12 @@ body {
   padding-left: 0px !important;
 }
 
+.logo-plus-texte-logo {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
 
 .align-items-center {
   display: flex !important;
