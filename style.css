@@ -7,6 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.img-size {
+  width: 270px;
+  height: 270px;
+}
+
+.logo-size {
+  width: 34.58px !important;
+  height: 40px !important; 
+  margin-right: 15px !important;
+  padding-left: 0px !important;
+}
+
+
+.align-items-center {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.logo-texte {
+  font-family: Kingthings Light, sans-serif;
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+.logo-center-size {
+  width: 100px;
+  height: 100px;
+}
+
 .loading-spinner {
   visibility: hidden;
   animation: visible infinite, fadein;
@@ -16,10 +45,10 @@ body {
 }
 
 .loading {
-    border-bottom: 5px solid #000000;
-    border-left: 5px solid #000000;
-    border-right: 5px solid #000000;
-    border-top: 5px solid white;
+    border-bottom: 2px solid #757575;
+    border-left: 2px solid #757575;
+    border-right: 2px solid #757575;
+    border-top: 2px solid white;
     border-radius: 50%;
     animation: spin 2s linear, hidden;
     animation-duration: 2s;
@@ -27,8 +56,8 @@ body {
     left: 50%;
     transform: translate(-50%);
     top: 50%;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     opacity: 1;
     visibility: hidden;
     z-index: 999;
