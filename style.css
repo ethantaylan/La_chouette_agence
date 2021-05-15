@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.black-semi-grey {
+  color: #333333 !important
+}
+
+
+.first-logo-size {
+  width: 34.58;
+  height: 40px;
+}
+
 .img-size {
   width: 270px;
   height: 270px;
@@ -19,7 +29,6 @@ body {
 .logo-size {
   width: 34.58px !important;
   height: 40px !important; 
-  margin-right: 15px !important;
   padding-left: 0px !important;
 }
 
@@ -39,6 +48,8 @@ body {
   font-family: Kingthings Light, sans-serif;
   font-size: 30px;
   white-space: nowrap;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .logo-center-size {
@@ -125,7 +136,6 @@ a:hover {
 .bloc {
   width: 100%;
   clear: both;
-  background: 50% 50% no-repeat;
   padding: 0 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -416,8 +426,8 @@ p {
 
 .navbar-brand img {
   max-height: 200px;
-  margin: 0 5px 0 0;
   display: inline;
+  margin: 0;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -941,6 +951,9 @@ h4 {
 
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bg-presentation {
@@ -1011,6 +1024,7 @@ h4 {
     padding-right: constant(safe-area-inset-right);
   }
 }
+
 
 @media (max-width: 767px) {
   .page-container {

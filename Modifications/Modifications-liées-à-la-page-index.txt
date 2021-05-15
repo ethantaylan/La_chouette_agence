@@ -108,3 +108,5 @@ Commentaire : Adaptation des images à la taille des blocs
 Importation du font : Kingthings et création d'un h1 sur le coté droit de logo.
 Commentaire : On a plus de chance à retrouver un site contenant plus de textes que plus d'images.
 
+20. modification au niveau du footer
+probleme de contraste au niveau des couleurs, correction en assombrissant la couleur gris.
