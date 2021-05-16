@@ -113,3 +113,5 @@ probleme de contraste au niveau des couleurs, correction en assombrissant la cou
 
 21. depuis le lighthouse : manque de navigation pour les utilisateurs sans souris. Ajout de la navigation "Nos realisations" 
 Qui nous redirige vers le bloc  : Nos réalisations
+
+22. ajout d'un espace entre le footer et le bloc-d car la transition de couleur etait trop rapide

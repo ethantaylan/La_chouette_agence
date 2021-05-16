@@ -11,6 +11,9 @@ body {
   color: #333333 !important
 }
 
+.text-underline {
+  text-decoration: underline;
+}
 
 .first-logo-size {
   width: 34.58;
@@ -591,6 +594,12 @@ button {
   border-radius: 40px;
 }
 
+.barre-blanche {
+  height: 10px;
+  width: 100%;
+  background-color: white;
+}
+
 .btn-clean {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom-color: rgba(0, 0, 0, 0.1);
@@ -903,8 +912,8 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #333333;
-  color: white !important
+  background: #f3976c;
+  color: #ffffff !important;
 }
 
 .tc-white {
@@ -919,6 +928,11 @@ h4 {
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
   color: #ffffff !important;
+}
+
+.bg-black-semi-grey {
+  background-color: #333333;
+  color: white !important
 }
 
 .ltc-white {
