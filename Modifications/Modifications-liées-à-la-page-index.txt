@@ -17,7 +17,7 @@ Commentaire : Rajouter une description au site permet de retrouver le site plus 
 Avant : . 
 Après : La chouette agence
 
-(5) [ligne] balise : <div class="keywords">
+(5) [ligne] balise : 	
 Modification : attribut + balise = supprimer
 Screenshot : 1
 Commentaire : Balise qui provocait seulement un bug d'affichage.

@@ -21,7 +21,8 @@ Commentaire : La description d'un site permet de retrouver plus facilement le si
 
 (5) (ligne) modification du titre de la page <title>page2</title>
 Avant : <title>page2</title>
-Apres : <title>Contactez-nous</title>
+Apres : <title>La chouette agence, entreprise de webdesign</title>
+
 
 (6) (ligne) modification de toutes les balises link du fichier contact.html
 Avant : <link rel="shortcut icon" type="image/png" href="favicon.jpg">
