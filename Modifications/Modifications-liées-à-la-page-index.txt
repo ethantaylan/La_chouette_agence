@@ -110,3 +110,6 @@ Commentaire : On a plus de chance à retrouver un site contenant plus de textes 
 
 20. modification au niveau du footer
 probleme de contraste au niveau des couleurs, correction en assombrissant la couleur gris.
+
+21. depuis le lighthouse : manque de navigation pour les utilisateurs sans souris. Ajout de la navigation "Nos realisations" 
+Qui nous redirige vers le bloc  : Nos réalisations
