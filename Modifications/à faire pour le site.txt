@@ -4,8 +4,8 @@ passer le site sur seolyzer / OnCrawl / Excel
 passer le site sur Gzip (compresseur de fichier)
 passer le site sur GTmetrix (test de vitesse de chargement de page)
 faire une analyse des logs pour voir ou est ce que google bot perd le plus de temps
-passer le site sur le correcteur W3c pour verifier les erreurs
-mettre les images à la bonne taille des blocks
+//passer le site sur le correcteur W3c pour verifier les erreurs
+//mettre les images à la bonne taille des blocks
 chercher le css inutiliser dans : https://css-tricks.com/how-do-you-remove-unused-css-from-a-site/
 
 Minifiez vos fichiers CSS et JavaScript (c-a-d : espaces, sauts de lignes, commentaires, séparateurs de bloc)
