@@ -115,3 +115,6 @@ probleme de contraste au niveau des couleurs, correction en assombrissant la cou
 Qui nous redirige vers le bloc  : Nos réalisations
 
 22. ajout d'un espace entre le footer et le bloc-d car la transition de couleur etait trop rapide
+
+23. diminution de la taille de l'image la-chouette-agence-banniere.jpg
+
